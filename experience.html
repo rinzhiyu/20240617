@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>資1B 112111225 林芷羽</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/experience.css">
+</head>
+<body>
+  <div class="snowflakes" aria-hidden="true">
+    <!-- Snowflakes will be dynamically generated here -->
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand nav2" href="index.html">website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto nav1">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">個人資料</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="certifications.html">證照項目</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="experience.html">求職經歷</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                作品集
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="112111225/20240325-KOMA-NATSU Web/index.html">KOMA-NATSU Web</a></li>
+                <li><a class="dropdown-item" href="112111225/20240401-KOMA-NATSU Web/index.html">KOMA-NATSU Web</a></li>
+                <li><a class="dropdown-item" href="112111225/20240408-KOMA-NATSU Web/index.html">KOMA-NATSU Web</a></li>
+                <li><a class="dropdown-item" href="112111225/20240411-KOMA-NATSU Web/index.html">KOMA-NATSU Web</a></li>
+                <li><a class="dropdown-item" href="112111225/20240321/20240321.html">HTML基礎標籤練習</a></li>
+                <li><a class="dropdown-item" href="112111225/20240328/index.html">設定樣式的方法</a></li>
+                <li><a class="dropdown-item" href="112111225/20240429fontawesome/FontAwesome.html">Fontawesome練習</a></li>
+                <li><a class="dropdown-item" href="112111225/20240502display/display.html">display排版</a></li>
+                <li><a class="dropdown-item" href="112111225/20240509/index.html">加分練習</a></li>
+                <li><a class="dropdown-item" href="112111225/20240506fixed/fixed.html">fixed排版</a></li>
+                <li><a class="dropdown-item" href="112111225/20240520layout/layout01.html">layout01</a></li>
+                <li><a class="dropdown-item" href="112111225/20240523layout/layout.html">layout02</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <div class="container" id="banner"></div>
+    <div class="container row" style="margin-left: 425px; margin-top: 20px;">
+    <div class="card" style="width: 18rem;">
+      <img src="img/book.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" style="text-align: left;"><button id="prevBtn" style="margin-top: 130px;"><div class="arrow left" onclick="prevSlide()">&#9664;</div></button></p>
+      </div>
+    </div>
+    <div class="card" style="width: 27rem; height: 30rem;">
+      <div class="image-container"  style="margin-top: 20px;">
+        <img id="mainImage" src="https://via.placeholder.com/400x300" alt="Main Image">
+      </div>
+      <div id="imageText">
+        <h3>Main Image</h3>
+        <p>This is the main image description.</p>
+      </div>
+      <div class="card-body">
+        <p class="card-text"></p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="carousel">
+        <div class="carousel-content active">
+          <h3></h3>
+          <p><img src="img/cof.jfif" alt="咖啡店"></p>
+        </div>
+        <div class="carousel-content">
+          <h3></h3>
+          <p><img src="img/poi.jfif" alt="雜貨店"></p>
+        </div>
+        <div class="carousel-content">
+          <h3></h3>
+          <p><img src="img/joy.jfif" alt="飾品店"></p>
+        </div>
+      </div>
+      <div class="card-body">
+        <p class="card-text" style="text-align: right;"><button id="nextBtn"><div class="arrow right" onclick="nextSlide()">&#9654;</div></button></p>
+      </div>
+    </div>
+    </div>
+	<footer class="text-center bg-dark text-white py-2 fixed-bottom">資1B 112111225 林芷羽</footer>
+
+	<script src="js/jpuery-3.6.0.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>	
+  <script src="js/script1.js"></script>
+</body>
+</html>

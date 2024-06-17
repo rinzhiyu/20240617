@@ -1,0 +1,51 @@
+body{
+	font-family: Microsoft JhengHei;
+	background-color:  #C4E1FF;
+	overflow: hidden;
+}
+
+#banner{
+	background-image:url(../img/banner.png);
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	margin-top: 3.5rem;
+}
+
+footer{padding-top: 30px;}
+
+.nav1{
+	margin-right: 100px;
+}
+
+.nav2{
+	margin-left: 100px;
+}
+
+img{height: 200px;}
+  
+.snowflakes{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+  
+.snowflake{
+	position: absolute;
+	color: #ffffff;
+	font-size: 2em;
+	opacity: 0.8;
+	pointer-events: none;
+	animation: falling linear infinite;
+}
+  
+@keyframes falling{
+	0% {
+	  transform: translateY(-10vh) rotate(0deg);
+	}
+	100% {
+	  transform: translateY(100vh) rotate(360deg);
+	}
+}
+  
+
